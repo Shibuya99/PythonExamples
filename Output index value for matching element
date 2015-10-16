@@ -8,8 +8,7 @@
 # If there is no matching element,
 # return -1.
 
-# While Loop
-
+# WHILE LOOP #
 def find_element(p,t):
 i = 0
 while i < len(p):
@@ -18,8 +17,7 @@ while i < len(p):
     i = i + 1
 return -1
 
-# For Loop
-
+# FOR LOOP #
 def fine_element(p,t):
 i = 0
 for e in p:
@@ -28,6 +26,17 @@ for e in p:
   i = i + 1
 return -1
 
+# INDEX VALUES (2 WAYS) #
+def fine_element(p,t):
+    if t in p:
+        return p.index(t)
+    else:
+        return -1
+        
+def fine_element(p,t):
+    if t is not in p:
+        return -1
+    return p.index(t)
 
 
 print find_element([1,2,3],3)
