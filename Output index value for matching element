@@ -34,7 +34,7 @@ def fine_element(p,t):
         return -1
         
 def fine_element(p,t):
-    if t is not in p:
+    if t not in p:
         return -1
     return p.index(t)
 
