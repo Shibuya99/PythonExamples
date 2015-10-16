@@ -7,3 +7,31 @@
 
 # If there is no matching element,
 # return -1.
+
+# While Loop
+
+def find_element(p,t):
+i = 0
+while i < len(p):
+    if p[i] == t
+      return i
+    i = i + 1
+return -1
+
+# For Loop
+
+def fine_element(p,t):
+i = 0
+for e in p:
+  if e ==t:
+    return i
+  i = i + 1
+return -1
+
+
+
+print find_element([1,2,3],3)
+#>>> 2
+
+print find_element(['alpha','beta'],'gamma')
+#>>> -1
